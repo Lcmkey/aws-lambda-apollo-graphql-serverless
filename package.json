@@ -1,0 +1,33 @@
+{
+  "name": "aws-lambda-apollo-graphql-serverless",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lcmkey/aws-lambda-apollo-graphql-serverless.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lcmkey/aws-lambda-apollo-graphql-serverless/issues"
+  },
+  "homepage": "https://github.com/Lcmkey/aws-lambda-apollo-graphql-serverless#readme",
+  "dependencies": {
+    "apollo-server-lambda": "^2.18.1",
+    "graphql": "^15.3.0"
+  },
+  "devDependencies": {
+    "serverless-dotenv-plugin": "^3.0.0",
+    "serverless-offline": "^6.8.0",
+    "serverless-webpack": "^5.3.5",
+    "ts-loader": "^8.0.4",
+    "typescript": "^4.0.3",
+    "webpack": "^4.44.2",
+    "webpack-node-externals": "^2.5.2"
+  }
+}
